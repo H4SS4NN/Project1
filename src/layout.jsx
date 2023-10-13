@@ -8,9 +8,10 @@ const Layout = () => {
 
     <>
 
-      <nav>
+      <nav className="fixed top-12 left-12">
+        {console.log('heyy')}
 
-        <ul>
+        <ul className="flex gap-4">
 
           <li>
 
@@ -20,9 +21,18 @@ const Layout = () => {
 
           <li>
 
-            <Link to="./Counter.jsx">Counter</Link>
+            <Link to="counter">Counter</Link>
 
           </li>
+          <li>
+
+                <Link to="quiz">Quiz</Link>
+
+        </li>
+
+        <li>
+        <Link to="shop">Shop</Link>
+        </li>
          
         
 

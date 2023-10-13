@@ -7,7 +7,7 @@ function Counter() {
     function increment() {
 
         setCount(count+1)
-        console.log('helo')
+       
         
     }
     function changeText(param){
